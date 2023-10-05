@@ -1,0 +1,400 @@
+.header{
+    width: 100%;
+    height: 59px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    display: inline;
+}
+.toop{
+    width: 10%;
+    height: 52px;
+    padding-left: 40px;
+padding-top: 7px;
+float: left;
+position: relative;
+display: block;
+}
+.store{
+    width: 10%;
+    height: 100%;
+    float: left;
+    padding-top: 20px;
+    
+}
+.storebtn{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+.phonecontent a{
+    color: black;
+    font-weight: bolder;
+}
+.phonecontent{
+    display: none;
+    color: black;
+    height: 100px;
+    width: 1100%;
+    background-color: white;
+    margin-left: -250%;
+    text-align: center;
+    font-size: larger;
+    padding-top: 50px;
+}
+.phonebtn{
+    border: none;
+    background-color: white;
+    font-weight: bold;
+}
+.phone:hover .phonecontent{
+        display: block;
+}
+.phone{
+    padding-top: 20px;
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.Tv{
+
+    width: 10%;
+    height: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.tvbtn{
+background-color: white;
+font-weight: bold;
+border: none;
+}
+.Tvccontent{
+display: none;
+height: 100px;
+width: 800%;
+background-color: white;
+
+text-align: center;
+font-size: larger;
+padding-top: 50px;
+margin-left: -250%;
+}
+.Tvccontent a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.Tv:hover .Tvccontent{
+    display: block;
+}
+.lap{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.lapcontent{
+    display: none;
+    height: 100px;
+    width: 800%;
+    background-color: white;
+    
+    text-align: center;
+    font-size: larger;
+    padding-top: 50px;
+    margin-left: -250%;
+}.lapbtn{
+
+}.lap:hover .lapcontent
+
+.uull2{
+    background-color: blue;
+    width: 10%;
+    height: 100%;
+    float: right;
+    padding-left: 10px;
+    padding-top: -50px;
+}
+.uull3{
+    width: 10%;
+    height: 100%;
+    float: right;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.top2{
+    width: 100%;
+    height: 100%;
+    color: black;
+    float: left;
+}
+
+
+
+
+
+
+body{
+    margin: 0;
+    font-family: 'Onest', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color: rgb(217, 222, 222);
+}
+
+.first-img{
+    width: 100%;
+    height: 595px;
+float: left;
+}
+.white{
+    color: blue;
+    width: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+.image{
+    width: 100%;
+    height: 595px;
+    float: left;
+}
+.first-img .first-text{
+    padding-left: 150px;
+    padding-top: 200px;
+    color: white;
+    position: absolute;
+    font-family: 'Onest', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: larger;
+}
+.checkoutbtn{
+padding: 1.0rem 2.0rem;
+font-size: medium;
+border-radius: 15px;
+}
+
+.checkoutbtn:hover{
+    background-color: white;
+    cursor: pointer;
+    
+}
+.second-img{
+    margin-top: 8px;
+    width: 100%;
+    height: 595px;
+    background: black;
+    float: left;
+    position: relative;
+}
+.second-img .second-text{
+    color: white;
+    position: absolute;
+    padding-left: 130px;
+    padding-top: 145px;
+    float: left;
+}
+.grey{
+    color: #474747;
+}
+.third-imgs{
+margin-top: 8px;
+   width: 100%;
+height: 1040px;
+float: left;
+}
+.thirdimg{
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 49%;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+.third1-text{
+    color: black;
+    position: absolute;
+    padding-left: 145px;
+    padding-top: 80px;
+    text-align: center;
+}
+.trimhalf{
+    margin-top: 8px;
+    margin-left: 8.5px;
+    width: 24%;
+    height: 500px;
+    float: left;
+}
+.orange{
+    color: #ff7819;
+    font-size: 20px;
+    text-decoration: none;
+}
+.fourth{
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+.left{
+    width: 49%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    margin-left: 8px;
+}
+.right{
+    width: 49%;
+    height: 100%;
+    float: left;
+    margin-left: 8px;
+}
+.up{
+    background-color: #fff;
+    width: 100%;
+    height: 49%;
+    float: left;
+}
+.down{
+    background-color: #fff;
+    margin-top: 8px;
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+.cent{
+    padding-left: 100px;
+    text-decoration: none;
+    display: inline;
+}
+.cent h1{
+    display: inline;
+}
+.cent li{
+    font-size: 18px;
+    width: 25%;
+    display: inline;
+    padding-left: 20px;
+    margin-right: 50px;
+
+}
+.cent ul{
+    padding-top: 50px;
+    text-align: center;
+
+}
+.cent1 h3{
+    display: inline;
+}
+.cent1{
+    padding-left: 285px;
+    padding-top: 50px;
+}
+.cent2{
+    padding-left: 230px;
+    float: left;
+    font-family: sans-serif;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    float: left;
+    background-color: black;
+    
+}
+.letter{
+    color: white;
+    padding-left: 50px;
+}
+.leftf{
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.leftf a {
+    text-decoration: none;
+color: #474747;
+}
+.leftf a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.container{
+    background-color: #eee;
+}
+.leftleft{
+    width: 17%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+}
+.leftcenter{
+    margin-left: 10%;
+    width: 17%;
+    height: 100%;
+    float: left;
+}
+.leftright{
+    margin-left: 10%;
+
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+.leftcenter2{
+    margin-left: 10%;
+
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+.white{
+    color: white;
+    font-family: sans-serif;
+}
+.rightf{
+    width: 40%;
+    height: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.right1{
+    width: 50%;
+    height: 50%;
+margin-left: 150px;
+
+}
+.right1 a{
+    text-decoration: none;
+}
+.right1 a:hover{
+    color: white;
+}
+.size{
+    padding: 1rem 5rem 1rem;
+    border-radius: 10px;
+    border-color: white;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
